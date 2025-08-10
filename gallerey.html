@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.N.B.P</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <b>NEWS:</b>
+            <marquee>
+                Admission Open for Academic Year 2025-26.........
+            </marquee>
+        </div>
+    </div>
+    <!--Navigation-->
+    <nav>
+        <img src="images/logo1.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-square-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a class="active" href="gallerey.html">Gallerey</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="admission.html">Admission</a></li>
+            </ul>
+            <img id="menu-btn" src="images/text.png" alt="">
+        </div>
+    </nav>
+ <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Campus Gallery/</h1>
+            <p>Explore our beautiful campus, state-of-the-art facilities, and vibrant student life through our photo gallery</p>
+        </div>
+    </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Gallery - Campus Life & Facilities</title>
+   </head>
+<body>
+
+    <!-- Filter Tabs -->
+    <div class="gallery-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="student-life">Student Life</button>
+                <button class="filter-btn" data-filter="academics">Academics</button>
+                <button class="filter-btn" data-filter="star-visit">Celebrity</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Campus Buildings -->
+                <div class="gallery-item" data-category="campus">
+                    <img src="images/snbp.jpg" alt="">
+                    <div class="gallery-image campus-building">
+
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="20" y="60" width="160" height="90" fill="#2c3e50"/>
+                            <rect x="30" y="70" width="20" height="25" fill="#3498db"/>
+                            <rect x="60" y="70" width="20" height="25" fill="#3498db"/>
+                            <rect x="90" y="70" width="20" height="25" fill="#3498db"/>
+                            <rect x="120" y="70" width="20" height="25" fill="#3498db"/>
+                            <rect x="150" y="70" width="20" height="25" fill="#3498db"/>
+                            <rect x="30" y="105" width="20" height="25" fill="#3498db"/>
+                            <rect x="60" y="105" width="20" height="25" fill="#3498db"/>
+                            <rect x="90" y="105" width="20" height="25" fill="#3498db"/>
+                            <rect x="120" y="105" width="20" height="25" fill="#3498db"/>
+                            <rect x="150" y="105" width="20" height="25" fill="#3498db"/>
+                            <polygon points="10,60 100,20 190,60" fill="#e74c3c"/>
+                            <rect x="85" y="130" width="30" height="20" fill="#8e44ad"/>
+                            <circle cx="50" cy="30" r="15" fill="#f39c12"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Main Academic Building</h3>
+                        <p>Our historic main building houses administrative offices and lecture halls</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Library -->
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/li.jpg" alt="">
+                    <div class="gallery-image library-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="40" width="140" height="100" fill="#34495e"/>
+                            <rect x="40" y="50" width="15" height="80" fill="#e67e22"/>
+                            <rect x="60" y="50" width="15" height="80" fill="#e74c3c"/>
+                            <rect x="80" y="50" width="15" height="80" fill="#3498db"/>
+                            <rect x="100" y="50" width="15" height="80" fill="#2ecc71"/>
+                            <rect x="120" y="50" width="15" height="80" fill="#9b59b6"/>
+                            <rect x="140" y="50" width="15" height="80" fill="#f39c12"/>
+                            <rect x="50" y="20" width="100" height="20" fill="#2c3e50"/>
+                            <text x="100" y="35" text-anchor="middle" fill="white" font-size="12" font-family="Arial">LIBRARY</text>
+                            <circle cx="160" cy="60" r="8" fill="#f1c40f"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>University Library</h3>
+                        <p>Modern library with extensive digital resources and quiet study spaces</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Sports Complex -->
+                <div class="gallery-item" data-category="student-life">
+                    <img src="images/1.jpg" alt="">
+                    <div class="gallery-image sports-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <ellipse cx="100" cy="75" rx="80" ry="50" fill="#27ae60"/>
+                            <ellipse cx="100" cy="75" rx="70" ry="40" fill="#2ecc71"/>
+                            <line x1="30" y1="75" x2="170" y2="75" stroke="white" stroke-width="2"/>
+                            <circle cx="100" cy="75" r="15" fill="none" stroke="white" stroke-width="2"/>
+                            <rect x="25" y="35" width="10" height="80" fill="white"/>
+                            <rect x="165" y="35" width="10" height="80" fill="white"/>
+                            <rect x="20" y="65" width="20" height="20" fill="white"/>
+                            <rect x="160" y="65" width="20" height="20" fill="white"/>
+                            <circle cx="100" cy="30" r="12" fill="#f39c12"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Sports Complex</h3>
+                        <p>State-of-the-art athletic facilities for various sports and fitness activities</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Science Laboratory -->
+                <div class="gallery-item" data-category="academics">
+                    <img src="images/2.jpg" alt="">
+                    <div class="gallery-image lab-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="40" y="80" width="120" height="60" fill="#2c3e50"/>
+                            <rect x="50" y="90" width="20" height="40" fill="#3498db"/>
+                            <rect x="80" y="90" width="20" height="40" fill="#3498db"/>
+                            <rect x="110" y="90" width="20" height="40" fill="#3498db"/>
+                            <rect x="140" y="90" width="20" height="40" fill="#3498db"/>
+                            <polygon points="60,80 70,40 80,80" fill="#e74c3c"/>
+                            <polygon points="90,80 100,45 110,80" fill="#2ecc71"/>
+                            <polygon points="120,80 130,35 140,80" fill="#f39c12"/>
+                            <circle cx="70" cy="50" r="3" fill="#e74c3c"/>
+                            <circle cx="100" cy="55" r="3" fill="#2ecc71"/>
+                            <circle cx="130" cy="45" r="3" fill="#f39c12"/>
+                            <rect x="20" y="70" width="160" height="5" fill="#34495e"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Computer Lab</h3>
+                        <p>Advanced research laboratories equipped with cutting-edge technology</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Student Dormitory -->
+                <div class="gallery-item" data-category="student-life">
+                    <img src="images/a13.jpeg" alt="">
+                    <div class="gallery-image dorm-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Student Residence</h3>
+                        <p>Comfortable and modern dormitories providing a home away from home</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                 <!-- Student Dormitory -->
+                <div class="gallery-item" data-category="student-life">
+                    <img src="images/4.jpg" alt="">
+                    <div class="gallery-image dorm-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Student Residence</h3>
+                        <p>Comfortable and modern dormitories providing a home away from home</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                 <!-- Student Dormitory -->
+                <div class="gallery-item" data-category="student-life">
+                    <img src="images/a4.jpeg" alt="">
+                    <div class="gallery-image dorm-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Student Residence</h3>
+                        <p>Comfortable and modern dormitories providing a home away from home</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- star visit -->
+                                 <div class="gallery-item" data-category="star-visit">
+                    <img src="images/17.jpg" alt="">
+                    <div class="gallery-image dorm-svg">
+                         <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Cricketer</h3>
+                        <p>The Famous Cricketer visit MR.Rohit Sharma</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- star visit -->
+                                 <div class="gallery-item" data-category="star-visit">
+                    <img src="images/20.jpg" alt="">
+                    <div class="gallery-image dorm-svg">
+                         <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Celebrity</h3>
+                        <p>The Famous Celebrity visit Ms.Karisma Kapoor </p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- star visit -->
+                                 <div class="gallery-item" data-category="star-visit">
+                    <img src="images/22.jpg" alt="">
+                    <div class="gallery-image dorm-svg">
+                         <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="30" y="50" width="140" height="90" fill="#34495e"/>
+                            <rect x="40" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="60" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="85" width="15" height="15" fill="#f39c12"/>
+                            <rect x="40" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="65" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="90" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="115" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="140" y="110" width="15" height="15" fill="#f39c12"/>
+                            <rect x="85" y="125" width="30" height="15" fill="#8e44ad"/>
+                            <polygon points="25,50 100,20 175,50" fill="#e74c3c"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Jamaican Cricketer</h3>
+                        <p>The Famous Cricketer visit Chris Gayle</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Cafeteria -->
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/cafa.jpg" alt="">
+                    <div class="gallery-image cafeteria-svg">
+                        <svg width="200" height="150" viewBox="0 0 200 150">
+                            <rect width="200" height="150" fill="none"/>
+                            <rect x="20" y="60" width="160" height="80" fill="#2c3e50"/>
+                            <rect x="30" y="70" width="30" height="20" fill="#e67e22"/>
+                            <rect x="70" y="70" width="30" height="20" fill="#e67e22"/>
+                            <rect x="110" y="70" width="30" height="20" fill="#e67e22"/>
+                            <rect x="150" y="70" width="20" height="20" fill="#e67e22"/>
+                            <circle cx="45" cy="80" r="8" fill="#f39c12"/>
+                            <circle cx="85" cy="80" r="8" fill="#e74c3c"/>
+                            <circle cx="125" cy="80" r="8" fill="#2ecc71"/>
+                            <rect x="40" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <rect x="52" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <rect x="80" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <rect x="92" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <rect x="120" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <rect x="132" y="100" width="8" height="30" fill="#8e44ad"/>
+                            <text x="100" y="55" text-anchor="middle" fill="#2c3e50" font-size="10" font-family="Arial">CAFETERIA</text>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Campus Cafeteria</h3>
+                        <p>Diverse dining options with healthy and delicious meals for students</p>
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Stats -->
+    <div class="gallery-stats">
+        <div class="container">
+            <h2>Campus by Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Buildings</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">200</div>
+                    <div class="stat-label">Acres</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Sports Facilities</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">Dining Options</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
+        <div class="lightbox-content">
+            <div class="lightbox-image" id="lightboxImage"></div>
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeIn 0.6s ease';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Lightbox functionality
+        galleryItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const title = item.querySelector('.gallery-overlay h3').textContent;
+                const description = item.querySelector('.gallery-overlay p').textContent;
+                const imageElement = item.querySelector('.gallery-image');
+                
+                document.getElementById('lightboxTitle').textContent = title;
+                document.getElementById('lightboxDescription').textContent = description;
+                
+                // Clone the image content for lightbox
+                const lightboxImage = document.getElementById('lightboxImage');
+                lightboxImage.innerHTML = imageElement.innerHTML;
+                lightboxImage.className = imageElement.className;
+
+                document.getElementById('lightbox').classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close lightbox when clicking outside content
+        document.getElementById('lightbox').addEventListener('click', (e) => {
+            if (e.target.id === 'lightbox') {
+                closeLightbox();
+            }
+        });
+
+        // Close lightbox with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+
+        // Add fade-in animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(30px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Animate stats on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number');
+                    statNumbers.forEach(stat => {
+                        const finalNumber = stat.textContent;
+                        const numericValue = parseInt(finalNumber.replace(/\D/g, ''));
+                        const suffix = finalNumber.replace(/\d/g, '');
+                        
+                        let current = 0;
+                        const increment = numericValue / 40;
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= numericValue) {
+                                stat.textContent = finalNumber;
+                                clearInterval(timer);
+                            } else {
+                                stat.textContent = Math.floor(current) + suffix;
+                            }
+                        }, 50);
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        observer.observe(document.querySelector('.gallery-stats'));
+
+        // Add stagger animation to gallery items on load
+        window.addEventListener('load', () => {
+            galleryItems.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(50px)';
+                
+                setTimeout(() => {
+                    item.style.transition = 'all 0.6s ease';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96a6126072d9ffa2',t:'MTc1NDM5NDU3My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+    <footer>
+        <div class="footer-col">
+            <h3>University College</h3>
+            <p>123 University Avenue<br>College Town, CT 12345</p>
+            <div class="social-links">
+             <a href="#" class="social-icon">FB</a>
+             <a href="#" class="social-icon">TW</a>
+             <a href="#" class="social-icon">IG</a>
+             <a href="#" class="social-icon">LI</a>
+             </div>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Course</li>
+            <li>Contact Us</li>
+            <li>Login</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Library</li>
+            <li>Career Services</li>
+            <li>Student Portal</li>
+            <li>Faculty Directory</li>
+            <li>Alumni Network</li>
+        </div>
+        <div class="footer-col">
+        <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>info@universitycollege.edu</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>123 University Avenue<br>College Town, CT 12345</span>
+                    </div>
+                </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;2021 All right reserved | This template is made by [R.K]</p>
+            <div class="pro-links">
+                <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+      <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

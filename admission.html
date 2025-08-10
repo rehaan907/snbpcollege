@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.N.B.P</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <b>NEWS:</b>
+            <marquee>
+                Admission Open for Academic Year 2025-26.........
+            </marquee>
+        </div>
+    </div>
+    <!--Navigation-->
+    <nav>
+        <img src="images/logo1.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-square-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="gallerey.html">Gallerey</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a class="active" href="admission.html">Admission</a></li>
+            </ul>
+            <img id="menu-btn" src="images/text.png" alt="">
+        </div>
+    </nav>
+        <!--Amission form  -- -->
+        <div class="container0">
+            <div class="text">
+                 <h2><u>Admission Form</u></h2>
+                 <p>Begin your journey with us - Complete your application below</p>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">-- Select --</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <label for="course">Course Applying For:</label>
+      <select id="course" name="course" required>
+        <option value="">-- Select --</option>
+        <option value="bsc">B.Sc</option>
+        <option value="ba">B.A</option>
+        <option value="bcom">B.Com</option>
+        <option value="btech">B.Tech</option>
+      </select>
+
+      <button type="submit">Submit Application</button>
+    </form>
+    </div>
+  </div>
+    <footer>
+        <div class="footer-col">
+            <h3>University College</h3>
+            <p>123 University Avenue<br>College Town, CT 12345</p>
+            <div class="social-links">
+             <a href="#" class="social-icon">FB</a>
+             <a href="#" class="social-icon">TW</a>
+             <a href="#" class="social-icon">IG</a>
+             <a href="#" class="social-icon">LI</a>
+             </div>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Course</li>
+            <li>Contact Us</li>
+            <li>Login</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Library</li>
+            <li>Career Services</li>
+            <li>Student Portal</li>
+            <li>Faculty Directory</li>
+            <li>Alumni Network</li>
+        </div>
+        <div class="footer-col">
+        <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>info@universitycollege.edu</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>123 University Avenue<br>College Town, CT 12345</span>
+                    </div>
+                </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;2021 All right reserved | This template is made by [R.K]</p>
+            <div class="pro-links">
+                <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+     <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
